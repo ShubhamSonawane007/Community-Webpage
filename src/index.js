@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './components/Home';
+import Addproject from './components/Addproject';
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
             path: "/",
             element: <Home />,
         },
+        {
+          path: "/add-project",
+            element: <Addproject />,
+        }
       
     ],
 },

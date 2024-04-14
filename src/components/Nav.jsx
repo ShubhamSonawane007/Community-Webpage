@@ -14,15 +14,16 @@ const Nav = () => {
     };
 
     const links = [
-        { name: "HOME", link: "/" },
-        { name: "FORUMS", link: "/" },
-        { name: "LATEST PROJECTS", link: "/", dropdown: true },
-        { name: "POPULAR TAGS", link: "/" },
+        { name: "Home", link: "/" },
+        { name: "Forums", link: "/" },
+        { name: "Latest Projects", link: "/"},
+        { name: "Popular Tags", link: "/" },
+        { name: "User", link: "/",dropdown:true },
         // Add more links as needed
     ];
 
     const categories = [
-        { name: "FullStack", link: "/" },
+        { name: "Add Project", link: "/add-project" },
         { name: "HTML & CSS", link: "/" },
         { name: "JavaScript", link: "/" },
         { name: "React", link: "/" },
@@ -67,6 +68,8 @@ const Nav = () => {
                                 <a href={link.link} className='text-gray-800 hover:text-gray-400 duration-500'>{link.name}</a>
                             )}
                         </li>
+
+                        
                     ))}
                     <Button>
                         Log In
