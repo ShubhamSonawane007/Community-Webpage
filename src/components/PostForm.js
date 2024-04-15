@@ -58,19 +58,25 @@ function PostForm() {
               onChange={handleImageChange}
             />
             <svg
-              className="mr-2 cursor-pointer hover:text-gray-700 border rounded-full p-1 h-7"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13"
-              />
-            </svg>
+      version="1.1"
+      id="Layer_1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+      x="0px"
+      y="0px"
+      viewBox="0 0 360 360"
+      style={{ enableBackground: 'new 0 0 360 360', width: '40px', height: '40px' }}
+      xmlSpace="preserve"
+      className="mr-2 cursor-pointer hover:text-gray-700 border rounded-full p-1 h-7"
+    >
+      <g>
+        <rect y="54.551" style={{ fill: '#C3C6C8' }} width="360" height="250.898" />
+        <rect x="23.816" y="78.365" style={{ fill: '#0071CE' }} width="312.369" height="203.268" />
+        <polygon style={{ fill: '#00BD5E' }} points="23.816,281.633 125.601,179.852 168.39,222.639 259.508,131.521 336.201,208.215 
+        336.201,281.633 " />
+        <circle style={{ fill: '#FFFFFF' }} cx="96.047" cy="134.932" r="31.861" />
+      </g>
+    </svg>
           </label>
           <div className="count ml-auto text-gray-400 text-xs font-semibold">0/300</div>
         </div>
